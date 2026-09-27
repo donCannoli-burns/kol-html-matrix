@@ -1,0 +1,144 @@
+{
+  "schema": "kol-html-matrix-install-manifest/v1",
+  "project": "donCannoli-burns/kol-html-matrix",
+  "matrix": {
+    "path": "relay/html-matrix/index.html",
+    "bytes": 964274,
+    "sha256": "37c4f92d0d24d2b4b7212e2f2c3bbe3999eef5f745c72544be9d398f91e7c8cd",
+    "workspace_id": "kol-hmx-a76056c0e3f8e1f4",
+    "generated_at": "2026-09-27T04:38:00-05:00",
+    "schema": "kolmafia-llm-scripting-hyper-matrix/v1"
+  },
+  "agent_plane": {
+    "path": "data/html-matrix",
+    "agent_master_index": {
+      "path": "data/html-matrix/agent-master-index.json",
+      "bytes": 7655,
+      "sha256": "a3e16a51aec1a86e36c195541fe7e9f50456c7bcd7fe020d19d12794ce238abb",
+      "extraction": "exact contents of <script id=\"agent-master-index\" type=\"application/json\">"
+    },
+    "hyper_data": {
+      "path": "data/html-matrix/hyper-data.json",
+      "bytes": 902725,
+      "sha256": "07141819ad684c891eb7efd45b0072024aa439828746de3aa534ff8ad3d59d7c",
+      "nodes": 665,
+      "workflows": 13,
+      "usecases": 29,
+      "extraction": "exact contents of <script id=\"hyper-data\" type=\"application/json\">"
+    }
+  },
+  "sources": [
+    {
+      "key": "ash",
+      "title": "KoLmafia ASH Scripting Matrix",
+      "file": "kolmafia_ash_scripting_matrix(1).html",
+      "sha256": "3df3b27b3c875981bf23468f3b7113276962cbaa68a21d6bac087c7b19864d1c",
+      "bytes": 272792,
+      "role": "KoLmafia index source"
+    },
+    {
+      "key": "gcli",
+      "title": "KoLmafia gCLI Agent Execution Atlas",
+      "file": "kolmafia_gcli_agent_execution_atlas(1).html",
+      "sha256": "185c0fcb015c8da0220cb0b7c6f3473666f1e75ee12548dff799c64507f522c5",
+      "bytes": 145952,
+      "role": "KoLmafia index source"
+    },
+    {
+      "key": "js",
+      "title": "KoLmafia JS / TS / Relay Reference Matrix",
+      "file": "kolmafia_js_ts_relay_reference_matrix(2).html",
+      "sha256": "fdd0fc84c4692edbc87cea5f734195e037144d4318071c9620bc6e36b3d27a0a",
+      "bytes": 59987,
+      "role": "KoLmafia index source"
+    },
+    {
+      "key": "ops",
+      "title": "KoLmafia LLM Operation Index",
+      "file": "kolmafia_llm_operation_index(1).html",
+      "sha256": "004f59f7fb259d445f20440a392ca1286b6452e5cd76e0301fd91ce263326140",
+      "bytes": 303091,
+      "role": "KoLmafia index source"
+    },
+    {
+      "key": "memory-wiki",
+      "title": "LLM Memory Wiki",
+      "file": "llm-memory-wiki-system(2).html",
+      "sha256": "dc207f6d7332e9ec001ab6a811eccbf4ba6d113692450b1d0b832e8648c35de7",
+      "bytes": 56985,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "agent-ledger",
+      "title": "Dynamic Agent Master Ledger",
+      "file": "dynamic_agent_master_ledger(10).html",
+      "sha256": "9567f73276d9de3a9bd581f6ab5ba456f2e8750da48f4c3acdf91b9b17cd7b46",
+      "bytes": 215930,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "browser-mcp",
+      "title": "Browser Tool MCP",
+      "file": "browser-tool-mcp(2).html",
+      "sha256": "44e441338b041b836c8a65d78e6d57a71254191a9a32bb66534b09613db2d530",
+      "bytes": 627649,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "offworld",
+      "title": "Offworld Style Card",
+      "file": "offworld-style-dev-card(1).md",
+      "sha256": "1bfa8807e456953c1bb399c0cb96e05365c275eaf3210c14789a282c69ca6fc6",
+      "bytes": 6814,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "vektor",
+      "title": "VEKTOR v0.5.0",
+      "file": "Golang%20Vector%20Database-audited-v0.5.0(8).tar",
+      "sha256": "a9a6f5a2240244cf99fcaa9c1dfa05463e51e704a57849b74737cf392a8616f4",
+      "bytes": 87379,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "langgraph",
+      "title": "HTML5-Native LangGraph / GraphCore",
+      "file": "HTML5-Native-LangGraph-audited-source.tar(8).gz",
+      "sha256": "fd7a5fc75e6122ebc964e29145701c456e1f8b0e566280944f53559f00d1beb5",
+      "bytes": 90767,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "matrix-memory",
+      "title": "HTML Matrix Memory",
+      "file": "html-matrix-memory-v0.1.0(3).zip",
+      "sha256": "88b3f75bd0dfede8a216a986e077a621f686c70162728afc9481372c8ee79067",
+      "bytes": 7290383,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "worksheet",
+      "title": "HTML Worksheet Library",
+      "file": "html-worksheet-library-v0.2.0(2).zip",
+      "sha256": "7c698f204575c77e99ca9be6fd8726e14d8c39aaf554926a786e35d74971007d",
+      "bytes": 221842,
+      "role": "runtime / design source"
+    },
+    {
+      "key": "nanoclock",
+      "title": "NanoClock Native",
+      "file": "nanoclock-native(3).zip",
+      "sha256": "c0bfbb753501fb42608b7dbdaca8ccc99cd69c4b86128cd0d480ee428057d6e1",
+      "bytes": 568689,
+      "role": "runtime / design source"
+    }
+  ],
+  "authority_invariants": [
+    "Observation evidence does not authorize execution.",
+    "T3 / structural-deny classifications are immutable in the learning overlay.",
+    "T2/mutation candidates require explicit human review outside auto-run.",
+    "Nested executors are classified by effective downstream action.",
+    "Successful tool return is not equivalent to verified state transition."
+  ],
+  "agent_start": "Search the master index, inspect exact mem:// pointers, expand graph neighbors, then produce a bounded route packet. Prefer installed runtime metadata for live KoLmafia facts. Do not use this HTML artifact as execution authority."
+}
